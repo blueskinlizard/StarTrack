@@ -15,3 +15,15 @@ const upload = multer({ storage });
 router.post('/uploadFits', upload.single('file'), req, res =>{
     
 })
+
+router.post('/fetchTabular', async(req, res) =>{
+
+})
+
+router.post('/fetchSpectraGraph', async(req, res) =>{
+
+})
+
+router.post('/fetchSpecificModelPreds', async(req, res) =>{
+  
+})

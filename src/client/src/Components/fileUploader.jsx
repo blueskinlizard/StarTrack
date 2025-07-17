@@ -1,5 +1,5 @@
 import { useState } from "react";
-import fileInfo from "./fileInfo";
+import fileInfo from "./starDisplayCard";
 import spectrogramDisplay from "./spectrogramDisplay";
 
 export default function fileUploader(){
