@@ -2,15 +2,16 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import fileUploader from './Components/starDisplayCard'
+import StarSearchbar from './Components/StarSearchbar'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      
+      <h1>Welcome to StarTrack</h1>
+      <h4>Use the search bar below to find information about a star.</h4>
+      <StarSearchbar></StarSearchbar>
     </>
   )
 }
