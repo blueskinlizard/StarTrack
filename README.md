@@ -54,3 +54,9 @@ StarTrack’s pipeline includes:
 - Node.js
 - Jupyter Notebook
 - Astropy (for `.fits` file handling) 
+
+## Screenshots
+<img width="1901" height="919" alt="image" src="https://github.com/user-attachments/assets/6d28a17a-e605-4583-b2ab-13c8f0dcaa9b" />
+<img width="1905" height="919" alt="image" src="https://github.com/user-attachments/assets/d16670db-f2a4-4a00-9bf9-0083526ec050" />
+<img width="1902" height="914" alt="image" src="https://github.com/user-attachments/assets/8c422d22-9ac4-40bc-85a7-0e565a913df4" />
+
