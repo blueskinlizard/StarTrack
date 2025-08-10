@@ -15,26 +15,21 @@ router.post('/findStar', async(req, res)=>{
   const csvPath = path.join(__dirname, './server_data/final_predictions.csv');
   let found = false;
   try {
-    fs.createReadStream(csvPath)
-      .pipe(csv())
+    fs.createReadStream(csvPath).pipe(csv())
       .on('data', (row) => {
-        if (
-          row.PLATE === plate &&
-          row.MJD === mjd &&
-          row.FIBERID === fiberid
-        ) {
+        if(row.PLATE === plate && row.MJD === mjd && row.FIBERID === fiberid){
           found = true;
           results.push(row);
         }
       })
       .on('end', () => {
         if (found) {
-          res.json({ result: results[0] });
+          res.json( results[0] );
         } else {
           res.status(404).json({ error: 'Star not found in csv' });
         }
       });
-  } catch (error) {
+  }catch (error) {
     console.error('Error reading CSV:', error);
     res.status(500).json({ error: 'Server error while reading star data' });
   }
