@@ -3,7 +3,7 @@
 
 **StarTrack** is an interactive web-based dashboard and machine learning pipeline for stellar classification using spectral data. It allows users to query stars by **PLATE-MJD-FIBERID** and view both **model predictions** and **actual classifications**, enabling a comparative, hands-on exploration of stellar data. Designed as a learning experience and showcase project, StarTrack combines tabular and spectral analysis through a **multimodal deep learning system**.
 
-You can download StarTrack's data CSV here: https://drive.google.com/file/d/170lCU-O4Cxb-RVoX_OIWrBycr3kPjQbi/view?usp=sharing
+You can download StarTrack's CSV data here: https://drive.google.com/file/d/170lCU-O4Cxb-RVoX_OIWrBycr3kPjQbi/view?usp=sharing
 
 ---
 
