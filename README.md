@@ -1,7 +1,7 @@
 
 # ⭐ StarTrack
 
-**StarTrack** is an interactive web-based dashboard and machine learning pipeline for stellar classification using spectral data. It allows users to query stars by **PLATE-MJD-FIBERID** and view both **model predictions** and **actual classifications**, enabling a comparative, hands-on exploration of stellar data. Designed as a learning experience and showcase project, StarTrack combines tabular and spectral analysis through a **multimodal deep learning system**.
+**StarTrack** is an interactive web-based dashboard and machine learning pipeline for stellar classification using spectral data. It allows users to query stars by **PLATE-MJD-FIBERID** and view both **model predictions** and **actual classifications**. Designed as a learning experience and showcase project for me, StarTrack combines tabular and spectral analysis through a **multimodal deep learning system**.
 
 You can download StarTrack's CSV data here: https://drive.google.com/file/d/170lCU-O4Cxb-RVoX_OIWrBycr3kPjQbi/view?usp=sharing
 
@@ -35,17 +35,16 @@ StarTrack’s pipeline includes:
 
 - **Source**: SDSS DR16 Spectroscopic Archive  
 - **Size**: ~800,000 for dense/tabular model, ~25,000 labeled samples for LSTM & Fusion model, 
-- **Inputs**:
-  - 1D flux spectra (from `.fits` files)  
-  - Tabular metadata (PLATE, MJD, FIBERID, redshift, etc.)  
-- **Labels**: Stellar subclasses (e.g., `A0`, `M5`, `K3`)
+- **Labels**: Stellar classes (e.g., `A`, `M`, `WD`)
 
 ---
 
 ## 🛠️ Technologies Used
 
 **Frontend**:  
-- React.js  
+- React.js
+- TailwindCSS
+- React Recharts  
 
 **Backend / ML**:  
 - Python  
@@ -55,7 +54,6 @@ StarTrack’s pipeline includes:
 - Sklearn
 - Node.js
 - Jupyter Notebook
-- Astropy (for `.fits` file handling) 
 
 ## Screenshots
 <img width="1901" height="919" alt="image" src="https://github.com/user-attachments/assets/6d28a17a-e605-4583-b2ab-13c8f0dcaa9b" />
