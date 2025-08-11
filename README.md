@@ -34,7 +34,7 @@ StarTrack’s pipeline includes:
 ## 📁 Dataset
 
 - **Source**: SDSS DR16 Spectroscopic Archive  
-- **Size**: ~800,000 for dense/tabular model, ~25,000 labeled samples  for LSTM/spectra model, 
+- **Size**: ~800,000 for dense/tabular model, ~25,000 labeled samples for LSTM & Fusion model, 
 - **Inputs**:
   - 1D flux spectra (from `.fits` files)  
   - Tabular metadata (PLATE, MJD, FIBERID, redshift, etc.)  
