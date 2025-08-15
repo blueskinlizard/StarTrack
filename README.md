@@ -9,13 +9,13 @@ You can download StarTrack's CSV data here: https://drive.google.com/file/d/170l
 
 ## 🚀 Features
 
-- 🔭 **Star Lookup** by PLATE, MJD, and FIBERID  
-- 🧠 Dual-model predictions:
+- **Star Lookup** by PLATE, MJD, and FIBERID  
+- Dual-model predictions:
   - **Dense Model** for tabular metadata (e.g., redshift, magnitudes)
   - **BiLSTM Model** for raw spectral sequence data
-- 🌌 **Fusion architecture** combining both representations
-- 📊 Comparison of model outputs vs. actual SDSS subclass labels
-- 🌐 Fully responsive web dashboard built with **React.js**
+- **Fusion architecture** combining both representations
+- Comparison of model outputs vs. actual SDSS subclass labels
+- Fully responsive web dashboard built with **React.js**
 
 ---
 
@@ -27,13 +27,13 @@ StarTrack’s pipeline includes:
 - **Spectral Branch**: A Bidirectional LSTM trained on normalized 1D spectral flux values.  
 - **Fusion Module**: Outputs from both branches are concatenated and passed through a multi-head attention mechanism to produce the final subclass prediction.
 
-> ✅ Models trained and evaluated using data from the [Sloan Digital Sky Survey (SDSS)](https://www.sdss.org/)
+> Models trained and evaluated using data from the [Sloan Digital Sky Survey (SDSS)](https://www.sdss.org/)
 
 ---
 
 ## 📁 Dataset
 
-- **Source**: SDSS DR16 Spectroscopic Archive  
+- **Source**: SDSS DR17 Spectroscopic Archive  
 - **Size**: ~800,000 for dense/tabular model, ~25,000 labeled samples for LSTM & Fusion model, 
 - **Labels**: Stellar classes (e.g., `A`, `M`, `WD`)
 
@@ -44,7 +44,8 @@ StarTrack’s pipeline includes:
 **Frontend**:  
 - React.js
 - TailwindCSS
-- React Recharts  
+- React Recharts
+- Lucide React (For icons)  
 
 **Backend / ML**:  
 - Python  
