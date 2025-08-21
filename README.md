@@ -7,7 +7,7 @@ You can download StarTrack's CSV data here: https://drive.google.com/file/d/170l
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Star Lookup** by PLATE, MJD, and FIBERID  
 - Dual-model predictions:
@@ -19,7 +19,7 @@ You can download StarTrack's CSV data here: https://drive.google.com/file/d/170l
 
 ---
 
-## 🧠 ML Architecture
+## Architecture
 
 StarTrack’s pipeline includes:
 
@@ -31,7 +31,7 @@ StarTrack’s pipeline includes:
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 - **Source**: SDSS DR17 Spectroscopic Archive  
 - **Size**: ~800,000 for dense/tabular model, ~25,000 labeled samples for LSTM & Fusion model, 
@@ -39,7 +39,7 @@ StarTrack’s pipeline includes:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 **Frontend**:  
 - React.js
